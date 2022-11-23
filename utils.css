@@ -1,0 +1,105 @@
+@media screen and (max-width:1200px) {
+    .right img{
+        width:390px;
+    }
+    .left img{
+        width: 130px;
+    }
+    .left h1{
+        font-size: 1.4rem;
+    }
+    .left p{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:900px){
+
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        padding: 20px;
+    } 
+    .right{
+        width: 100%;
+    }
+    .section2{
+        padding: 30px;
+    }
+    .section2 .boxes{
+        flex-direction: column;
+    }
+    .section2 p{
+        padding: 0 4vw;
+    }
+    .section2 .box h2{
+        font-size: 1.4rem;
+
+    } 
+
+}
+
+@media screen and (max-width: 600px){
+
+    .navbar ul li{
+        font-size: 19px;
+        padding: 4px 8px;
+    }
+    .btn{
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    .left .btn{
+        font-size: 1rem;
+        padding: 8px 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px){
+
+    .navbar ul li{
+        font-size: 15px;
+        padding: 4px 5px;
+    }
+    .btn{
+        padding: 8px 8px;
+        font-size: 9px;
+    }
+    .left h1{
+        font-size: 1.2rem;
+    }
+    .left p{
+        font-size: 0.9rem;
+    }
+    .right img{
+        width: 360px;
+    }
+
+    .section2 .box ul li .btn{
+        padding: 8px 28px;
+        font-size: 1.1rem;
+    }
+    .section2 h1{
+        font-size: 1.7rem;
+    }
+    .section2 p{
+        font-size: 1rem;
+    }
+
+    .section3 h1{
+        font-size: 1.7rem;
+    }
+
+
+}
