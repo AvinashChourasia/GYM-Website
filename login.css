@@ -4,7 +4,8 @@ body{
     background-size: cover;
     background-position: center;
     font-family: 'Playfair Display', serif;
-    background-color: rgb(227 178 250);
+    /* background-color: rgb(227 178 250); */
+    background-image: url("./texture-2110023_1920.jpg");
 }
 .login{
     width: 320px;
